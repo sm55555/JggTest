@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp">
+
+
+
+    <EditText
+        android:layout_marginTop="110dp"
+        android:id="@+id/idText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/border"
+        android:padding="6dp"
+        android:hint="아이디"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:id="@+id/passwordText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:padding="6dp"
+        android:hint="비밀번호"
+        android:background="@drawable/border"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/workerloginButton"
+            android:layout_width="130dp"
+            android:layout_height="65dp"
+            android:text="용역 로그인"
+            android:layout_marginRight="40dp"/>
+
+        <Button
+            android:id="@+id/companyloginButton"
+            android:layout_width="130dp"
+            android:layout_height="65dp"
+            android:text="기업 로그인" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:text="아직 회원이 아니세요?"/>
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:text="회원가입" />
+
+</LinearLayout>

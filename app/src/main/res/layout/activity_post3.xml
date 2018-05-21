@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="공고 등록"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:background="#D5D5D5"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="담당자 연락처"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="연락처1"/>
+
+        <EditText
+            android:id="@+id/managerPhoneText1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/managerPlusButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="추가"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/manager2"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="연락처2"/>
+
+        <EditText
+            android:id="@+id/managerPhoneText2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/managerDeleteButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="삭제"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/manager3"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="연락처3"/>
+
+        <EditText
+            android:id="@+id/managerPhoneText3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/managerDeleteButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="삭제"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/manager4"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="연락처4"/>
+
+        <EditText
+            android:id="@+id/managerPhoneText4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/managerDeleteButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="삭제"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/manager5"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="연락처5"/>
+
+        <EditText
+            android:id="@+id/managerPhoneText5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/managerDeleteButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="삭제"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/manager6"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="연락처6"/>
+
+        <EditText
+            android:id="@+id/managerPhoneText6"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/managerDeleteButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="삭제"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/manager7"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="연락처7"/>
+
+        <EditText
+            android:id="@+id/managerPhoneText7"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/managerDeleteButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="삭제"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/manager8"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="연락처8"/>
+
+        <EditText
+            android:id="@+id/managerPhoneText8"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/managerDeleteButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="삭제"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/manager9"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="연락처9"/>
+
+        <EditText
+            android:id="@+id/managerPhoneText9"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/managerDeleteButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="삭제"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/manager10"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="연락처10"/>
+
+        <EditText
+            android:id="@+id/managerPhoneText10"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/managerDeleteButton10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="삭제"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/preButton"
+            android:layout_weight="1"
+            android:text="이전"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nextButton"
+            android:layout_weight="1"
+            android:text="다음"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

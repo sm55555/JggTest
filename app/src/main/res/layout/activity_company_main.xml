@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#FFFFFF"
+tools:context="com.example.osangmin.jggtest.CompanyMainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/companyOfferButton"
+        android:text="기업구인"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:background="#00FF0000"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/companySearchButton"
+        android:text="기업구직"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:background="#00FF0000"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/companyClosingButton"
+        android:text="기업결산"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:background="#00FF0000"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/companynotice">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="공지사항"
+                android:layout_marginTop="20dp"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/companyfragment">
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>
+
+</LinearLayout>

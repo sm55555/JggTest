@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="기업 회원가입"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:background="#D5D5D5"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="아이디"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/idText"
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:inputType="textPersonName"
+                    android:background="@drawable/border"
+                    android:padding="6dp"/>
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:text="중복체크"
+                    android:background="@color/colorAccent"
+                    android:id="@+id/validateButton"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="20dp"/>
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="비밀번호"/>
+
+            <EditText
+                android:id="@+id/passwordText"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:background="@drawable/border"
+                android:padding="6dp"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="비밀번호"/>
+
+            <EditText
+                android:id="@+id/passwordText2"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:background="@drawable/border"
+                android:padding="6dp"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="사업자등록번호"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/crNumText"
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/border"
+                    android:padding="6dp"
+                    android:inputType="number" />
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:text="유효 검사"
+                    android:background="@color/colorAccent"
+                    android:id="@+id/crNumValidButton"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="20dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="회사명"/>
+            <EditText
+                android:id="@+id/companyNameText"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:background="@drawable/border"
+                android:padding="6dp"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="대표자명"/>
+
+            <EditText
+                android:id="@+id/ceoText"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:background="@drawable/border"
+                android:padding="6dp"
+                android:inputType="textPersonName" />
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/nextButton"
+                    android:text="다음"/>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

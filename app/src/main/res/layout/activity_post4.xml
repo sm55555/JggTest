@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical">
+
+            <TextView
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:text="공고 등록"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="2dp"
+                android:background="#D5D5D5"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="공고상태"/>
+
+            <Spinner
+                android:id="@+id/noticeSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1">
+
+            </Spinner>
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/normalState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="일반 공고는 다음과 같이 이루어집니다.. 일반공고의 혜택은 여기에 실리며 이러한 혜택이 더욱 있습니다 !!!"/>
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/emergencyState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ff0000"
+                android:text="긴급 공고는 다음과 같이 이루어집니다.. 일반공고의 혜택은 여기에 실리며 이러한 혜택이 더욱 있습니다 !!!"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="상세 시공 내용"/>
+
+            <EditText
+                android:id="@+id/construction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="6"
+                android:maxLines="15" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="안내사항"/>
+
+            <EditText
+                android:id="@+id/information"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="6"
+                android:maxLines="15" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="첨부파일 (현장사진)"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/preButton"
+                    android:layout_weight="1"
+                    android:text="이전"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/registerButton"
+                    android:layout_weight="1"
+                    android:text="등록하기"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

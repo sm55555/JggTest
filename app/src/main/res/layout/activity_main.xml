@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.example.osangmin.jggtest.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="7dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/OfferButton"
+                android:text="구인"
+                android:textSize="13dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:background="#00FF0000"
+                android:layout_marginLeft="4dp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/SearchButton"
+                android:text="구직"
+                android:textSize="13dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:background="#00FF0000"
+                android:layout_marginLeft="4dp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/ClosingButton"
+                android:text="결산"
+                android:textSize="13dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:background="#00FF0000"
+                android:layout_marginLeft="4dp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment">
+
+        </RelativeLayout>
+        
+    </FrameLayout>
+
+</LinearLayout>

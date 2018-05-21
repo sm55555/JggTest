@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="회원가입"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:background="#D5D5D5"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/workerRegisterButton"
+        android:layout_width="270dp"
+        android:layout_height="110dp"
+        android:drawableLeft="@android:drawable/ic_menu_zoom"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="용역 회원가입"/>
+
+    <Button
+        android:id="@+id/companyRegisterButton"
+        android:layout_width="270dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@android:drawable/ic_menu_zoom"
+        android:text="기업 회원가입"/>
+
+</LinearLayout>

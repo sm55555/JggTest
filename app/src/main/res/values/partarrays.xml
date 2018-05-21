@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="state">
+        <item>일반 공고</item>
+        <item>긴급 공고</item>
+    </string-array>
+
+    <string-array name="main">
+        <item>선택</item>
+        <item>전기</item>
+        <item>소방</item>
+        <item>통신</item>
+    </string-array>
+
+    <string-array name="middle">
+        <item>선택</item>
+        <item>옥외</item>
+        <item>배관</item>
+        <item>내선</item>
+        <item>계장</item>
+        <item>플랜트</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>선택</item>
+        <item>1년 이하</item>
+        <item>1~3년</item>
+        <item>3~5년</item>
+        <item>5~7년</item>
+        <item>7~10년</item>
+        <item>10~15년</item>
+        <item>15~20년</item>
+        <item>20년 이상</item>
+    </string-array>
+
+    <string-array name="certi">
+        <item>선택</item>
+        <item>전기 기능사</item>
+        <item>전기 기사</item>
+        <item>전기공사</item>
+        <item>산업기사</item>
+        <item>소방설비</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>선택</item>
+        <item>서울</item>
+        <item>대전</item>
+        <item>대구</item>
+        <item>부산</item>
+        <item>광주</item>
+        <item>인천</item>
+
+    </string-array>
+
+    <string-array name="searchyear">
+        <item>선택</item>
+        <item>2017년</item>
+        <item>2018년</item>
+        <item>2019년</item>
+        <item>2020년</item>
+    </string-array>
+
+    <string-array name="month">
+        <item>선택</item>
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+
+    </string-array>
+
+    <string-array name="day">
+        <item>선택</item>
+        <item>1일</item>
+        <item>2일</item>
+        <item>3일</item>
+        <item>4일</item>
+        <item>5일</item>
+        <item>6일</item>
+        <item>7일</item>
+        <item>8일</item>
+        <item>9일</item>
+        <item>10일</item>
+        <item>11일</item>
+        <item>12일</item>
+        <item>13일</item>
+        <item>14일</item>
+        <item>15일</item>
+        <item>16일</item>
+        <item>17일</item>
+        <item>18일</item>
+        <item>19일</item>
+        <item>20일</item>
+        <item>21일</item>
+        <item>22일</item>
+        <item>23일</item>
+        <item>24일</item>
+        <item>25일</item>
+
+    </string-array>
+
+    <string-array name="age">
+        <item>선택</item>
+        <item>30대 이하</item>
+        <item>40대 이하</item>
+        <item>50대 이하</item>
+        <item>60대 이하</item>
+    </string-array>
+
+    <string-array name="part">
+        <item>선택</item>
+        <item>조공</item>
+        <item>준전공</item>
+        <item>일반전공</item>
+        <item>고급전공</item>
+        <item>외선</item>
+        <item>고정용</item>
+    </string-array>
+</resources>
